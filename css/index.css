@@ -2,10 +2,12 @@
     background-color: rgb(40, 230, 230);
     height: 40px;
     padding-top: 20px;
+    display: flex;
 }
 .container{
     width: 100%;
     height: 40px;
+    flex-wrap: wrap;
 }
 .row{
     display: flex;
