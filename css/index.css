@@ -25,6 +25,7 @@
 .options-menu{
     background-color:rgb(40, 230, 230) ;
     height: 80px;
+    flex-wrap: wrap;
 }
 .container3{
     width: 100%;
@@ -44,13 +45,15 @@
 .col{
     border: solid 2px rgb(40, 230, 230);
 }
-.courses{
+.additional-info{
     height: 500px;
     background-color: rgb(40, 230, 230);
 }
 .container5{
     width: 100%;
     height: 500px;
+    display: flex;
+
 }
 .container6{
     width: 100%;
